@@ -1,0 +1,20 @@
+{
+  "viewportHeight": 1000,
+  "viewportWidth": 1280,
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  },
+  "experimentalRunEvents": true,
+  "defaultCommandTimeout": 30000,
+  "testGold": {
+    "enabled": true,
+    "serverTimeout": 180.0,
+    "handleFailure": "suggest-xpaths",
+    "filterEnabled": true,
+    "filterDisplayed": false,
+    "neighborMaxDist": -1,
+    "fastHeal": false,
+    "imageComparison": false
+  }
+}

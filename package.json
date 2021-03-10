@@ -1,0 +1,21 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress tests for the interceptor",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "testgold": "bash -c 'source .env && cypress open'"
+  },
+  "author": "TestGold",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  },
+  "dependencies": {
+    "@aichemy/testgold-cypress-plugin": "^1.2.1",
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.2.3"
+  },
+  "repository": "https://github.com/aichemydev/cypress-examples"
+}
